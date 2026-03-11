@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+img{
+  width: 100%;
+}
+
+.line{
+  border-top: 1px solid grey;
+  margin: 20px 0px 20px 0px;
+}
+
+.blue{
+ color: rgb(0, 140, 255);
+  
+}
+
+
+body {
+  color: #ddd;
+  font-family: 'Montserrat', sans-serif;
+ 
+ 
+  
+}
+
+body a{
+  color: #ddd;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+body a:hover{
+  color: rgb(0, 140, 255);
+}
+
+
+.active{
+  color: rgb(0, 140, 255);
+  
+}
+/* 
+Azul claro: #002E9A ;
+Azul intermedio:  #07226f 
+Azul Marino: #131f47
+background: #002e9a63; //TRANSPARENCIA
+*/
+.claro{
+  color: #002E9A;
+  background-color: #0a2c8a;
+}
+.medio{
+  color: #07226f;
+}
+.oscuro{
+  color: #131f47;
+}
+
+.trans{
+  background-color: rgba(0, 14, 92, 0.877);
+  background-color: rgba(0, 24, 160, 0.781);
+  color: #002e9a63;
+}
+
+
+/* transition: all 0.5s; 
+   transform: scale(1.02);
+*/
+
+.blue{
+  color: blue;
+}
